@@ -1,4 +1,5 @@
 
+# TWO-Player Rock, Paper, Scissors Game
 import time
 
 Hands = ["s", "r", "p"]
