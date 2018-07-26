@@ -20,25 +20,22 @@ while play.lower() == "y":
 
     if player_1.lower() == player_2.lower():
         print ("DRAW")
-
-    if player_1.lower() == "r":
+    elif player_1.lower() == "r":
         if player_2.lower() == "s":
             print ("WINNER: ONE")
-        elif player_2.lower() == "p":
+        else:
             print ("WINNER: TWO")
-
-    if player_1.lower() == "p":
+    elif player_1.lower() == "p":
         if player_2.lower() == "r":
             print ("WINNER: ONE")
-        elif player_2.lower() == "s":
+        else:
             print ("WINNER: TWO")
-
-    if player_1.lower() == "s":
+    elif player_1.lower() == "s":
         if player_2.lower() == "p":
             print ("WINNER: ONE")
-        elif player_2.lower() == "r":
+        else:
             print ("WINNER: TWO")
 
-    play = raw_input("PLAY AGAIN (Y/N): ")
-
+    print
+    play = raw_input("PLAY AGAIN (Y/N)? ")
     print
